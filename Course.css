@@ -1,0 +1,163 @@
+
+  .panel-body 
+  {
+    height: 195px;
+    background-repeat: no-repeat;
+    background-color: rgb(255, 255, 255);
+    background-repeat: no-repeat;
+    background-size: contain; 
+    background-position: 50%;
+  }
+
+
+  .col-md-12 > h2 {
+    color: rgb(0, 0, 0);
+    padding-top: 17px;
+    text-align: center;
+    font-size: 42px;
+    font-weight: bolder;
+    position: relative;
+  }
+  
+  #heading {
+    height: 90px;
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  #heading > h2 {
+    text-align: center;
+    border-bottom: 5px solid #4caf50; 
+    padding-bottom: 10px; 
+    display: inline-block; 
+  }
+  
+
+#level_class{
+    
+    height: 90px;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#level_class > h2 {
+  text-align: center;
+  border-bottom: 5px solid #4caf50; 
+  padding-bottom: 10px; 
+  display: inline-block; 
+}
+
+#fees{
+    font-size: 25px;
+    text-align: center;
+    color: black;
+}
+
+#title{
+    font-size: 30px;
+}
+
+#OQ{
+    background-color: orange;
+}
+
+#N3{
+    background-image: url(images/n3.png);
+  }
+#preparation{
+    background-image: url(images/kanji.png);
+}
+#native_speaking{
+    background-image: url(images/native.jpg);
+}
+#N5_and_N4{
+    background-image: url(images/N5_and_N4.jpg);
+}
+#N2{
+    background-image: url(images/N2.png);
+}
+#N1{
+    background-image: url(images/N1.png);
+}
+
+#kaigo{
+  background-image: url(images/kaigo.jpg);
+}
+
+#tokutei_ginou{
+  background-image: url(images/tokutei.jpg);
+}
+
+#jft-advanced{
+  background-image: url(images/jft.jpg);
+}
+
+#special-grammar{
+  background-image: url(images/Japanese-Grammar.png);
+}
+
+#video-class{
+  background-image: url(images/video.png);
+  background-size: cover; 
+}
+
+#basic_speaking{
+  background-image: url(images/basic-speaking.jpg);
+}
+
+
+@media only screen and (max-width: 768px) {
+    .courses {
+        position: relative;
+        display: none;
+      }
+    
+      .courses > a {
+        padding: 10px 5px;
+        font-size: 14px;
+      }
+
+      .dropdown:hover .courses {
+        display: block;
+      }
+  }
+
+.container > .features {
+  margin-top: 20px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+.features > #level_description{
+  background-color: rgb(23, 230, 161);
+  box-shadow: 10px 10px 10px rgba(100, 0, 0, 0.42);
+ 
+}
+
+.features > #level_description1{
+   margin-top: 50px;
+   background-color: rgba(100, 0, 0, 0.42);
+   box-shadow: 10px 10px 10px rgba(23, 230, 161,0.42);
+}
+
+.hidden-text {
+  font-size: 15px;
+} 
+
+.N5-to-N1 {
+  max-width: 100%; 
+  height: 300px; 
+  width: 40%;
+  position: relative;
+  left: 30%;
+  margin-top: 30px;
+}
+.with-us{
+  text-align: center;
+  font-size: 25px;
+  margin-top: 20px;
+}
+

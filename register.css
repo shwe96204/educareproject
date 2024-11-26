@@ -1,0 +1,26 @@
+.teacher{
+    height: 60px; 
+    width: 60px;
+    border-radius: 40px ;
+}
+.instructor-name{
+    display: inline;
+    font-size: 18px;
+    padding-left: 17px;
+    flex-direction: column;
+}
+.about-class 
+{
+    margin-top:40px;
+}
+.highlight > li{
+    font-size: 18px;
+    color: rgb(217, 123, 0);
+}
+.detail{
+    margin-top: 15px;
+}
+.detail > li{
+    list-style: square;
+    font-size: 18px;
+}
